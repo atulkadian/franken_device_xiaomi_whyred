@@ -25,9 +25,9 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
+$(call inherit-product, vendor/franken/config/common_full_phone.mk)
 
-PRODUCT_NAME := aicp_whyred
+PRODUCT_NAME := franken_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
